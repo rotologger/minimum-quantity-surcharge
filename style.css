@@ -1,0 +1,46 @@
+.surcharge {
+  min-width: 250px;
+}
+
+.surcharge-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.surcharge-info {
+  display: none;
+}
+
+.surcharge-icon:hover .surcharge-info {
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  width: 200px;
+  transform: translate(-50%, -100%);
+  color: var(--color);
+  background-color: var(--bg-color);
+  padding: 0.5rem;
+  font-size: 75%;
+  font-weight: 400;
+}
+
+.surcharge-icon:hover .surcharge-info:after {
+  content: '';
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--bg-color);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%) rotate(45deg);
+}
+
+.cart_totals .shop_table {
+  overflow-y: visible;
+}
