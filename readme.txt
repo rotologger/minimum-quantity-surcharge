@@ -37,8 +37,9 @@ This section describes how to install the plugin and get it working.
 3. Klick on Settings » Surcharge Settings to specify your settings.
 
 == Screenshots ==
-1. Desktop view
-2. Mobile view
+1. Frontend view
+2. Backend view
+
 == Changelog ==
 = v1.0.0 =
 

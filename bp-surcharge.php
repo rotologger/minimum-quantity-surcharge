@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Minimum Quantity Surcharge
-Version: 1.0
+Version: 1.0.0
 Author: Fabian Genthner
 Author URI: https://fabiangenthner.de
 Text Domain: bp_surcharge
