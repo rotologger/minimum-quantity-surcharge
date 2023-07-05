@@ -5,6 +5,7 @@ Plugin Name: Minimum Quantity Surcharge
 Version: 1.0.0
 Author: Fabian Genthner
 Author URI: https://fabiangenthner.de
+Description: Use this WP plugin to add a surcharge if your client's order amout is below a given threshold. You can define the limit under which the surcharge is applied, as well as the amount of the surcharge and some informational info message.
 Text Domain: bp_surcharge
 License: GPLv2
 */
